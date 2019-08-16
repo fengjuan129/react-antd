@@ -1,0 +1,14 @@
+1：使用 create-react-app 脚手架工程构建项目
+     a、全局安装 create-react-app
+          $ npm i create-react-app -g
+     b、创建我们的react 项目
+          $ create-react-app my-project
+     c、切换到指定项目根目录
+          $ cd my-project
+    d、运行项目
+          $ npm start
+2：添加react-router-dom 安装路由控制
+          npm i react-router-dom --save
+3：添加antd
+4:  添加react-loadable 实现组件懒加载
+          npm i react-loadable --save-dev

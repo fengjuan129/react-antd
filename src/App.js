@@ -1,20 +1,18 @@
 import React from 'react';
 import './App.css';
 import Login from './view/login/login';
-import Home from './view/home/home';
+import index from './view/index';
 import {BrowserRouter,HashRouter,Route,Switch} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       
-      <HashRouter >
         <Switch>
-            <Route exact path="/" component={Login}/>
+            <Route exact path="/" component={index}/>
             <Route exact path="/Login" component={Login}/>
-            <Route exact path="/Home" component={Home}/>
         </Switch>
-     </HashRouter>
+     
     
     </div>
   );
